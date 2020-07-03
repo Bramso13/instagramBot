@@ -24,11 +24,11 @@ for i in range(len(listeReseauxSociaux)):
     time.sleep(2)
     if(listeReseauxSociaux[i] == 'instagram'):
         inputI = driver.find_element_by_name('username')
-        inputIdentifiant = 'brahms_6'
+        inputIdentifiant = 'VOTREIDENTIFIANT'
         inputI.send_keys(inputIdentifiant)
         time.sleep(2)
         inputPass = driver.find_element_by_name('password')
-        inputPassword = 'USnavy1213()'
+        inputPassword = 'VOTREMOTDEPASSE'
         inputPass.send_keys(inputPassword)
         time.sleep(1)
         form = driver.find_element_by_css_selector('form')
